@@ -47,9 +47,7 @@ LToast.install = function(Vue) {
     }
   }
 }
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(LToast)
-}
+
 //   showCancel: false,
 //   confirmButtonText: 'ceshi',
 //   cancelButtonText: '请问去'
