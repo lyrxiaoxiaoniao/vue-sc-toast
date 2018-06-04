@@ -3,7 +3,7 @@
 
 - ` npm i vue-sc-toast `
 - ` import LToast from 'vue-sc-toast' `
-- main.js引入 ` Vue.use(LToast) `
+- ` Vue.use(LToast) `
 
    * @param {String} content  必填 |提示内容
    * @param {String} type  必填 | 暂时支持'warn', 'success'

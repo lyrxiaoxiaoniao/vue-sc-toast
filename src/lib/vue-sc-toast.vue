@@ -3,8 +3,14 @@
   <div v-show="visible" class="dialog">
     <div class="dialog-center">
       <div class="dialog-center-image">
-        <img v-if="type === 'warn'" src="./img/icon_warn.png" alt="">
-        <img v-if="type === 'success'" src="./img/icon_success.png" alt="">
+        <svg v-if="type === 'warn'" class="icon" aria-hidden="true">
+          <use xlink:href="#icon-chenggong"></use>
+        </svg>
+        <svg v-if="type === 'success'" class="icon" aria-hidden="true">
+          <use xlink:href="#icon-jinggao"></use>
+        </svg>
+        <!-- <img v-if="type === 'warn'" src="./img/icon_warn.png" alt="">
+        <img v-if="type === 'success'" src="./img/icon_success.png" alt=""> -->
       </div>
       <div class="dialog-center-content">{{message}}</div>
       <div class="dialog-center-btn">
@@ -15,6 +21,7 @@
   </div>
 </template>
 <script>
+import './icon_font/iconfont.js'
 export default {
   data() {
     return {
@@ -70,6 +77,10 @@ export default {
       padding-bottom: 0.5867rem/2;
       align-self: center;
       img {
+        height: 2.56rem/2;
+        width: 2.56rem/2;
+      }
+      svg{
         height: 2.56rem/2;
         width: 2.56rem/2;
       }
