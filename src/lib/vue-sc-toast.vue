@@ -3,10 +3,10 @@
   <div v-show="visible" class="dialog">
     <div class="dialog-center">
       <div class="dialog-center-image">
-        <svg v-if="type === 'warn'" class="icon" aria-hidden="true">
+        <svg v-if="type === 'success'" class="icon" aria-hidden="true">
           <use xlink:href="#icon-chenggong"></use>
         </svg>
-        <svg v-if="type === 'success'" class="icon" aria-hidden="true">
+        <svg v-if="type === 'warn'" class="icon" aria-hidden="true">
           <use xlink:href="#icon-jinggao"></use>
         </svg>
         <!-- <img v-if="type === 'warn'" src="./img/icon_warn.png" alt="">
