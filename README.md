@@ -14,7 +14,7 @@
 
 ```
 
-	this.$LToast('1234', '提示', {
+	this.$LToast('1234', 'warn', {
 	  showCancel: false,
 	  confirmButtonText: 'ceshi',
 	  cancelButtonText: '请问去'
