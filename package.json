@@ -1,7 +1,7 @@
 {
   "name": "vue-sc-toast",
   "description": "A Vue component to vue-sc-toast",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "author": "liuyouren <liuyouren@shencom.cn>",
   "license": "MIT",
   "private": false,

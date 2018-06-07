@@ -76,6 +76,7 @@ export default {
       padding-top: 1.28rem/2;
       padding-bottom: 0.5867rem/2;
       align-self: center;
+      box-sizing: border-box;
       img {
         height: 2.56rem/2;
         width: 2.56rem/2;
@@ -91,6 +92,7 @@ export default {
       color: rgb(153, 153, 153);
       text-align: center;
       padding: 0 0.5333rem;
+      overflow: hidden;
     }
     &-btn {
       height: 1.2rem;
